@@ -95,6 +95,10 @@ class NodeOperationsCommandController extends CommandController {
 
 		$this->outputLine('Copying node "' . $node->getLabel() . '" ' . $position . ' node "' . $targetNode->getLabel() . '"...');
 
+		if ($name) {
+			$this->outputLine('New NodeName will be: "' . $name . '"');
+		}
+
 		$this->nodeOperationService->copy($node, $targetNode, $position, $name);
 
 		$this->outputLine('Done!');
@@ -112,10 +116,6 @@ class NodeOperationsCommandController extends CommandController {
 		return $this->contextFactory->create(array(
 			'workspaceName' => 'live',
 			'currentDateTime' => $this->now,
-			'invisibleContentShown' => FALSE,
-			'removedContentShown' => FALSE,
-			'inaccessibleContentShown' => FALSE,
-			'dimensions' => array(),
 		));
 	}
 }

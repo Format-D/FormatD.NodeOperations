@@ -12,6 +12,7 @@ Example:
 ```
 ## Copy nodes
 
+Example:
 ```
-    ./flow nodeoperations:copy 1fd7d006-d1db-4s5c-ac89-7170fe22ce24 a77eaf64-eed9-4deb-9d21-52325d04d761 after 'New Name'
+    ./flow nodeoperations:copy --name="New NodeName" 1fd7d006-d1db-4s5c-ac89-7170fe22ce24 a77eaf64-eed9-4deb-9d21-52325d04d761 after
 ```
