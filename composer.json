@@ -10,12 +10,12 @@
     },
     "autoload": {
         "psr-4": {
-            "FormatD\\NeosOperations\\": "Classes/"
+            "FormatD\\NodeOperations\\": "Classes/"
         }
     },
     "extra": {
         "neos": {
-            "package-key": "FormatD.NeosOperations"
+            "package-key": "FormatD.NodeOperations"
         }
     }
 }
