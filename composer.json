@@ -1,0 +1,21 @@
+{
+    "name": "formatd/node-operations",
+    "description": "CLI commands for moving and copying nodes",
+    "type": "neos-package",
+    "license": "MIT",
+    "require": {
+        "neos/flow": ">=3.2"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "FormatD\\NeosOperations\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "FormatD.NeosOperations"
+        }
+    }
+}
