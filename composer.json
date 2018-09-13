@@ -1,10 +1,11 @@
 {
     "name": "formatd/node-operations",
-    "description": "CLI commands for moving and copying nodes",
+    "description": "CLI commands for moving and copying Neos CMS nodes",
     "type": "neos-package",
     "license": "MIT",
     "require": {
-        "neos/flow": ">=3.2"
+        "neos/flow": ">=3.2",
+        "neos/neos": ">=4.0"
     },
     "suggest": {
     },
